@@ -86,14 +86,18 @@ const Hero = () => {
                 {/* hero images */}
                 <picture>
                     <source srcset={hero_image_webp} type="image/webp" />
-                    <img src={hero_image} alt="A man with good shape body" className='hero-image'/>
+                    <img src={hero_image} alt="A man with good shape body" className='hero-image' />
                 </picture>
 
-                <motion.img
-                    initial={{ right: '11rem' }}
-                    whileInView={{ right: '20rem' }}
-                    transition={transition2}
-                    src={hero_image_back} alt="" className='hero-image-back' />
+                <picture>
+                    <source srcset={hero_image_back_webp} type="image/webp" />
+                    <motion.img
+                        initial={{ right: '11rem' }}
+                        whileInView={{ right: '20rem' }}
+                        transition={transition2}
+                        src={hero_image_back} alt="" className='hero-image-back' />
+                </picture>
+
                 {/* calories */}
                 <motion.div
                     initial={{ right: '37rem' }}
