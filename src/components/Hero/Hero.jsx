@@ -2,9 +2,13 @@ import React from 'react'
 import './Hero.css'
 import Header from './../Header/Header';
 import hero_image from '../../assets/hero_image.png'
+import hero_image_webp from '../../assets/hero_image.webp'
 import hero_image_back from '../../assets/hero_image_back.png'
+import hero_image_back_webp from '../../assets/hero_image_back.webp'
 import Heart from '../../assets/heart.png'
+import Heart_webp from '../../assets/heart.webp'
 import Calories from '../../assets/calories.png'
+import Calories_webp from '../../assets/calories.webp'
 import { motion } from 'framer-motion'
 import NumberCounter from 'number-counter'
 
