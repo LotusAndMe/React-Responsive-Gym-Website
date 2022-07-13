@@ -37,7 +37,7 @@
    position: relative;
 }
 
-.right-t>img{
+.right-t>picture>img{
     position: absolute;
     width: 17rem;
     height: 20rem;
@@ -72,7 +72,7 @@
     left: 3rem;
 }
 
-.arrows>img{
+.arrows>picture>img{
     width: 1.5rem;
     cursor: pointer;
 }
@@ -96,7 +96,7 @@
         position: relative;
         display: none;
     }
-    .right-t>img{
+    .right-t>picture>img{
         position: relative;
         top: 0;
         right: 0;
