@@ -78,7 +78,10 @@ const Hero = () => {
                     whileInView={{ right: '4rem' }}
                     transition={transition2}
                     className="heart-rate">
-                    <img src={Heart} alt="" />
+                    <picture>
+                        <source srcset={Heart_webp} />
+                        <img src={Heart} alt="" />
+                    </picture>
                     <span>Heart Rate</span>
                     <span>116 bpm</span>
                 </motion.div>
@@ -104,7 +107,10 @@ const Hero = () => {
                     whileInView={{ right: '28rem' }}
                     transition={transition2}
                     className="calories">
-                    <img src={Calories} alt="" />
+                    <picture>
+                        <source srcset={Calories_webp}/>
+                        <img src={Calories} alt="" />
+                    </picture>
                     <div>
                         <span>Calories burned</span>
                         <span>220 kcal</span>
